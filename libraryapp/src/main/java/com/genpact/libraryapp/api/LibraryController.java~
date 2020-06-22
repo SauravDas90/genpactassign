@@ -44,7 +44,7 @@ public class LibraryController {
 	}
 
 	@CrossOrigin(origins = "http://localhost:4200/")
-	@RequestMapping(method = RequestMethod.PUT, value = "/api/addbook")
+	@RequestMapping(method = RequestMethod.PUT, value = "/addbook")
 	public ResponseEntity<Books> savebooks(@RequestBody BooksDTO bookDto) {
 		return ResponseEntity.ok(bookService.addBook(bookDto));
 
