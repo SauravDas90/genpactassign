@@ -1,7 +1,8 @@
 Content-type - application/json
 Accept - application/json
 
-
+http://localhost:9000/addbook
+http://localhost:9000/libraries
 
 
 {"book":{
@@ -9,7 +10,9 @@ Accept - application/json
 "bookTitle":"50677",
 "publisher":"Pearson",
 "author":"Toru Dutt",
-"published":2007
+"published":2007,
+"borrowedDate":"22-06-2020",
+"dueDate":"20-07-2020"
 },
 "libraryId":2
 }
@@ -20,7 +23,9 @@ Accept - application/json
 "bookTitle":"50677",
 "publisher":"Pearson",
 "author":"Sydney Sheldon",
-"published":19907
+"published":19907,
+"borrowedDate":"22-05-2020",
+"dueDate":"14-07-2020"
 },
 "libraryId":1
 }
