@@ -1,0 +1,26 @@
+Content-type - application/json
+Accept - application/json
+
+
+
+
+{"book":{
+"isbn":"541-1-2190-71-6",
+"bookTitle":"50677",
+"publisher":"Pearson",
+"author":"Toru Dutt",
+"published":2007
+},
+"libraryId":2
+}
+
+
+{"book":{
+"isbn":"541-1-20000-71-6",
+"bookTitle":"50677",
+"publisher":"Pearson",
+"author":"Sydney Sheldon",
+"published":19907
+},
+"libraryId":1
+}
