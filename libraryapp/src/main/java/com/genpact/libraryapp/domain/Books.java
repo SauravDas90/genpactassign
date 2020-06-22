@@ -1,7 +1,6 @@
 package com.genpact.libraryapp.domain;
 
 import java.io.Serializable;
-import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -45,10 +44,10 @@ public class Books implements Serializable{
 	private int published;
 	
 	@Column(name = "borrowed_date")
-	private Date borrowedDate;
+	private String borrowedDate;
 	
 	@Column(name = "due_date")
-	private Date dueDate;		
+	private String dueDate;		
 	
 	@JsonBackReference
 	@ManyToOne(fetch = FetchType.LAZY,cascade=CascadeType.ALL)
@@ -95,19 +94,19 @@ public class Books implements Serializable{
 		this.published = published;
 	}
 
-	public Date getBorrowedDate() {
+	public String getBorrowedDate() {
 		return borrowedDate;
 	}
 
-	public void setBorrowedDate(Date borrowedDate) {
+	public void setBorrowedDate(String borrowedDate) {
 		this.borrowedDate = borrowedDate;
 	}
 
-	public Date getDueDate() {
+	public String getDueDate() {
 		return dueDate;
 	}
 
-	public void setDueDate(Date dueDate) {
+	public void setDueDate(String dueDate) {
 		this.dueDate = dueDate;
 	}
 

@@ -40,12 +40,6 @@ public class Library implements Serializable {
 	@Column(name = "library_address")
 	private String libraryAddress;	
 	
-	@Column(name = "no_of_sections")
-	private int noOfSections;
-	
-	@Column(name = "no_of_groups")
-	private int noOfGroups;
-	
 
 	public Integer getLibraryId() {
 		return libraryId;
@@ -71,21 +65,6 @@ public class Library implements Serializable {
 		this.libraryAddress = libraryAddress;
 	}
 
-	public int getNoOfSections() {
-		return noOfSections;
-	}
-
-	public void setNoOfSections(int noOfSections) {
-		this.noOfSections = noOfSections;
-	}
-
-	public int getNoOfGroups() {
-		return noOfGroups;
-	}
-
-	public void setNoOfGroups(int noOfGroups) {
-		this.noOfGroups = noOfGroups;
-	}
 
 	@JsonManagedReference
 	@OneToMany(mappedBy = "lib", cascade = CascadeType.ALL, orphanRemoval = true)
