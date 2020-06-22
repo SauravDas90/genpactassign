@@ -1,0 +1,22 @@
+<p>List of Libraires</p>
+
+<ul>
+    <li *ngFor="let library of Libraries | async" 
+    [class.selected]="library === selectedLibrary" (click)="onSelect(library)">
+      <span>{{library.libraryName | json}}</span>
+      
+      <span>{{library.libraryaddress | json}}</span>
+      
+    </li>
+  </ul>
+
+
+  <div *ngIf="selectedLibrary">
+
+    
+    
+
+    <app-books [library]= "selectedLibrary" [libId]="selectedLibrary.libraryid">
+      </app-books>
+  
+  </div>

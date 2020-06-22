@@ -1,0 +1,54 @@
+[2020-06-08 01:14:40.190] [exthost1] [info] extension host started
+[2020-06-08 01:14:40.251] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:14:40.251] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2020-06-08 01:14:40.527] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:14:40.527] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2020-06-08 01:14:40.965] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:14:40.965] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2020-06-08 01:14:41.025] [exthost1] [info] eager extensions activated
+[2020-06-08 01:15:07.497] [exthost1] [info] extension host started
+[2020-06-08 01:15:07.566] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:15:07.566] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2020-06-08 01:15:07.719] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:15:07.719] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2020-06-08 01:15:07.910] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:15:07.910] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2020-06-08 01:15:07.944] [exthost1] [info] eager extensions activated
+[2020-06-08 01:15:19.140] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2020-06-08 01:15:19.140] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
+[2020-06-08 01:15:24.099] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2020-06-08 01:15:24.099] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/out/extension
+[2020-06-08 01:15:24.176] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2020-06-08 01:15:24.176] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript/out/extension
+[2020-06-08 01:15:32.810] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-06-08 01:15:32.810] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2020-06-08 01:15:32.957] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-06-08 01:15:32.957] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json/client/out/jsonMain
+[2020-06-08 01:20:11.870] [exthost1] [info] ExtensionService#_doActivateExtension vscode.javascript {"startup":false,"activationEvent":"onLanguage:json"}
+[2020-06-08 01:20:11.870] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/javascript/out/javascriptMain
+[2020-06-08 01:20:39.086] [exthost1] [info] ExtensionService#_doActivateExtension Microsoft.vscode-markdown {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2020-06-08 01:20:39.086] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/markdown/out/extension
+[2020-06-08 01:21:03.707] [exthost1] [info] extension host started
+[2020-06-08 01:21:03.763] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:21:03.763] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2020-06-08 01:21:03.908] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:21:03.908] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2020-06-08 01:21:04.094] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2020-06-08 01:21:04.094] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2020-06-08 01:21:04.125] [exthost1] [info] eager extensions activated
+[2020-06-08 01:21:04.133] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2020-06-08 01:21:04.133] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
+[2020-06-08 01:21:04.473] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2020-06-08 01:21:04.473] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/out/extension
+[2020-06-08 01:21:04.537] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2020-06-08 01:21:04.537] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript/out/extension
+[2020-06-08 01:21:04.827] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-06-08 01:21:04.827] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2020-06-08 01:21:04.884] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2020-06-08 01:21:04.884] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json/client/out/jsonMain
+[2020-06-08 01:21:05.272] [exthost1] [info] ExtensionService#_doActivateExtension vscode.javascript {"startup":false,"activationEvent":"onLanguage:json"}
+[2020-06-08 01:21:05.272] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/javascript/out/javascriptMain
+[2020-06-08 01:21:05.358] [exthost1] [info] ExtensionService#_doActivateExtension Microsoft.vscode-markdown {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2020-06-08 01:21:05.358] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/markdown/out/extension
+[2020-06-08 01:22:35.470] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css {"startup":false,"activationEvent":"onLanguage:css"}
+[2020-06-08 01:22:35.470] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/css/client/out/cssMain

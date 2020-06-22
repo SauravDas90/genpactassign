@@ -1,0 +1,89 @@
+<p>Selected Book!</p>
+
+
+<div>
+    <label>Book name:<!-- 
+        {{book.isbn}}  |||| {{libid}} -->
+      <input #bookName />
+    </label>
+  </div>
+<section>
+  <ul>
+      <li *ngFor="let bookitem of library.books"
+   
+      [class.selected]="bookitem === selectedBook" (click)="onSelected(bookitem)">
+        <span>{{bookitem.isbn}}</span> {{bookitem.author}}
+      </li>
+    </ul>
+
+  </section>
+ 
+  <div *ngIf="selectedBook">
+
+      <label>Book name:<!-- 
+        {{book.isbn}}  |||| {{libid}} -->
+        {{selectedBook.bookTitle}}
+    </label>
+    <p></p>
+selected books isbn :: {{selectedBook.isbn}}
+<p></p>
+<label>Borrow date:<!-- 
+  {{book.isbn}}  |||| {{libid}} -->
+{{selectedBook.borrowedDate}}
+</label>
+<p></p>
+<label>Due Date:<!-- 
+  {{book.isbn}}  |||| {{libid}} -->
+  {{selectedBook.dueDate}}
+</label>
+
+  </div>
+ <p>
+
+
+  
+  
+  <button (click)="showForm()">Add Book </button></p>
+ <div *ngIf="enableForm">
+ <form [formGroup]="bookForm" (ngSubmit)="onSubmit(bookForm.value)">
+
+
+    <div>
+        <label for="isbn">
+          ISBN
+        </label>
+        <input id="isbn" type="text" formControlName="isbn">
+      </div>
+
+  <div>
+    <label for="bookTitle">
+      Name
+    </label>
+    <input id="bookTitle" type="text" formControlName="bookTitle">
+  </div>
+
+  <div>
+    <label for="publisher">
+      Publisher
+    </label>
+    <input id="publisher" type="text" formControlName="publisher">
+  </div>
+
+  <div>
+    <label for="author">
+        Author
+    </label>
+    <input id="author" type="text" formControlName="author">
+  </div>
+  
+  <div>
+      <label for="published">
+          Published
+      </label>
+      <input id="published" type="text" formControlName="published">
+    </div>
+
+  <button class="button" type="submit">Submit Book</button>
+
+</form>
+</div>
