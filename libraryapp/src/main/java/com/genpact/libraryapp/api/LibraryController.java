@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -28,18 +29,21 @@ public class LibraryController {
 	@Qualifier("libService")
 	LibraryService libraryService;
 
+	@CrossOrigin(origins = "http://localhost:4200/")
 	@RequestMapping(method = RequestMethod.GET, value = "/books")
 	public List<Books> getbooks() {
 		List<Books> book = new ArrayList<>();
 		bookService.getAllBooks();
 		return book;
 	}
-
+	
+	@CrossOrigin(origins = "http://localhost:4200/")
 	@RequestMapping(method = RequestMethod.GET, value = "/libraries")
 	public ResponseEntity<List<Library>> getLibs() {
 		return ResponseEntity.ok(libraryService.getAllLibraries());
 	}
 
+	@CrossOrigin(origins = "http://localhost:4200/")
 	@RequestMapping(method = RequestMethod.PUT, value = "/addbook")
 	public ResponseEntity<Books> savebooks(@RequestBody BooksDTO bookDto) {
 		return ResponseEntity.ok(bookService.addBook(bookDto));
